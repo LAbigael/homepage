@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Bitter';
+  src: url('../static/fonts/Bitter-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../static/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-style:bold;
+}
+
+h3 {
+   font-family: Playfair Display;
+   font-style: bold;
+   @apply text-rosePineDawn-subtle text-3xl;
+   
+}
+p,span, h4 {
+   font-family: 'Bitter';
+
+}
+
+.date {
+   font-family: 'Bitter';
+   @apply text-rosePineDawn-love mr-6;
+}
