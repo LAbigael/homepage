@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Portofolio Abigaël</title>
+      <title>Abigaël Laldji</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
     </>
   )

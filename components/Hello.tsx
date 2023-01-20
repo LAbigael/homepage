@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from "react";
 
 export default function App() {
   // Create Ref element.
-  const el = useRef(null);
+  const el = useRef(".element");
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className="border-rosePine-text lg:h-10 h-16 bg-rosePineDawn-rose/40 rounded my-6 py-2 font-mono text-center">
-      <span className="" ref={el}></span>
+      <span className="element"></span>
     </div>
   );
 }
