@@ -44,7 +44,7 @@ module.exports = {
           overlay: "#f2e9e1",
           muted: "#9893a5",
           subtle: "#797593",
-          text: "#575279",
+          text: "#4b4769",
           love: "#b4637a",
           gold: "#ea9d34",
           rose: "#d7827e",
