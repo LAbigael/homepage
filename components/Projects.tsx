@@ -68,7 +68,7 @@ const Projects = () => (
           <span className="font-bold">Nutrascan</span>
           <span>
             Site d&apos;évaluation <Link href="nutrascan.com" className="text-rosePineDawn-love">nutrascan.com</Link> de compléments alimentaire avec backoffice
-            pour des rédacteur•rice•s trajets, communiquer, faire des devis.
+            pour des rédacteur•rice•s.
           </span>
           <span className="text-sm lg:leading-loose text-rosePineDawn-pine">PHP, Wordpress</span>
         </div>
