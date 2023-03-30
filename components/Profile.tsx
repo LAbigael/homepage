@@ -43,11 +43,11 @@ const Profile = () => {
         transition={{ type: "spring", stiffness: 100 }}
       >
         <Image
-          className="border-rosePine-foam border-2 rounded-full object-none w-28 h-28 lg:w-40 lg:h-40"
-          src="/static/images/portrait.jpg"
+          className="border-rosePine-foam border-2 rounded-full object-cover w-28 h-28 lg:w-40 lg:h-40"
+          src="/static/images/portrait_50.jpg"
           alt=""
-          width={140}
-          height={4}
+          width={500}
+          height={500}
         />
       </motion.div>
     </div>

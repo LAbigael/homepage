@@ -9,7 +9,7 @@ export default function App() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Hello ! Je suis un developpeur d&apos;applications indépendant"], // Strings to display
+      strings: ["Hello ! Je suis un developpeur d&apos;applications WEB freelance"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 30,
