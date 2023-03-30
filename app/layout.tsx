@@ -1,8 +1,6 @@
 "use client";
 
-import { useState } from "react";
-
-import { LangContext } from "./LangContext";
+// import { LangContext } from "./LangContext";
 import { ThemeContext } from "./ThemeContext";
 
 import "../styles/globals.css";
@@ -12,9 +10,9 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) { 
-  const [lang, setLang] = useState("fr");
-  const langValue = { lang, setLang };
+}) {
+  // const [lang, setLang] = useState("fr");
+  // const langValue = { lang, setLang };
 
   return (
     <html lang="en">
@@ -22,13 +20,11 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <LangContext.Provider value={langValue}>
-        <ThemeContext.Provider value={"light"}>
-          <body className="max-w-xl mx-auto bg-rosePineDawn-base">
-            {children}
-          </body>
-        </ThemeContext.Provider>
-      </LangContext.Provider>
+      <ThemeContext.Provider value={"light"}>
+        <body className="max-w-xl mx-auto bg-rosePineDawn-base">
+          {children}
+        </body>
+      </ThemeContext.Provider>
     </html>
   );
 }
