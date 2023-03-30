@@ -8,7 +8,7 @@ import Projects from "components/Projects";
 import Stack from "components/Stack";
 import Social from "components/Social";
 
-import ToggleLang from "components/LangToggle";
+// import ToggleLang from "components/LangToggle";
 
 
 export default function Home() {
@@ -18,7 +18,6 @@ export default function Home() {
         "w-full h-screen text-rosePineDawn-text bg-rosePineDawn-base px-4"
       }
     >
-      <ToggleLang />
       <Hello />
       <Profile />
       <Work />
