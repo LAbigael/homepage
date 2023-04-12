@@ -6,7 +6,7 @@ const ILove = () => (
       J&apos;♥
     </h4>
     <p className="indent-4">
-      Escalade, Montagne, Vidéographie, Cinématographie, Linux, Logiciels
+      Escalade, Montagne, Vidéographie, Linux, Logiciels
       libres, Greta Thunberg
     </p>
   </Section>

@@ -29,6 +29,34 @@ const Profile = () => {
           className="flex flex-row mt-2"
         >
           <Image
+            src="/static/images/email.svg"
+            alt=""
+            width={20}
+            height={4}
+          />
+          <span className="pl-2 text-sm">contact@abigael.dev</span>
+        </motion.div>
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex flex-row mt-2"
+        >
+          <Image
+            src="/static/images/phone.svg"
+            alt=""
+            width={20}
+            height={4}
+          />
+          <span className="pl-2 text-sm">+33 605 028 823</span>
+        </motion.div>
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex flex-row mt-2"
+        >
+          <Image
             src="/static/images/location-pointer.svg"
             alt=""
             width={20}
