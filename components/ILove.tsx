@@ -7,7 +7,7 @@ const ILove = () => (
     </h4>
     <p className="indent-4">
       Escalade, Montagne, Vidéographie, Linux, Logiciels
-      libres, Greta Thunberg
+      libres, Craftmanship, Greta Thunberg
     </p>
   </Section>
 );
